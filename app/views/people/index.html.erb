@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <% @people.each do |p| %>
+      <p><%= p.first_name %> <%= p.last_name %></p>
+    <% end %>
+  </body>
+</html>
